@@ -3,7 +3,9 @@ void greet()
 {
     printf("Hello, welcome!\n");
 }
-
+int add(int a, int b){
+    return a + b;
+}
 int main() {
     int var = 22;
 
@@ -25,6 +27,8 @@ int main() {
     printf("Value of x: %d\n", x);
     printf("Address of x: %p\n", (void *)&x);
     printf("Value using pointer: %d\n", *ptr);
+
+    printf("Sum of 5 and 10 is: %d\n", add(5, 10));
 
     return 0;
 }

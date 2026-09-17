@@ -17,6 +17,10 @@ def greet():
     print("Hello, king! Sourabh is here to help you with your DSA journey!")
 
 greet()
+def add(a, b):
+    return a + b
+
 
 little_list = [1, 2, 3, 4, 5]
 print(little_list)
+print(add(1234, 34567))
