@@ -17,3 +17,6 @@ def greet():
     print("Hello, king! Sourabh is here to help you with your DSA journey!")
 
 greet()
+
+little_list = [1, 2, 3, 4, 5]
+print(little_list)
